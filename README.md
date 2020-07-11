@@ -27,7 +27,7 @@ pip install -r Requirements.txt
 
 **Step 3**
 
-
+Use command to prepare download images
 ```bash 
 cd object-detection/OIDv4_ToolKit/
 ```
@@ -49,7 +49,7 @@ Bottle
 Vehicle
 ```
 
-and you should define your classes after that you run the command and you download 200 labeled photos for everyone of the 4 classes for training under the same roof
+and define your classes after running the command and downloading 200 labeled photos for each of the four training classes under the same roof
 ```bash
 python main.py downloader --classes Person Mug Bottle Vehicle --type_csv train --multiclasses 1 --limit 200
 ```
@@ -67,7 +67,7 @@ python oid_to_pascal_voc_xml.py
 **Step 6**
 
 
-You have to change directory
+Change directory
 
 ```bash
 cd ..\YoloV3-Custom-Object-Detection\conversion
@@ -79,7 +79,7 @@ dir output
 
 **Step 7**
 
-
+Create directories images, labels and copy the photos
 ```
 cd ..\training
 mkdir images
@@ -92,7 +92,7 @@ copy ..\conversion\output labels
  **Step 8**
  
 
-You should generate two files train.txt and test.txt 
+Generate two files train.txt and test.txt 
 ```
 python train_test.py
 cd ..
@@ -103,7 +103,7 @@ cd ..
 percentage_test = 30;
 ```
 
-You should edit this file 
+Edit this file 
 dpsd13131\object-detection\YoloV3-Custom-Object-Detection\training\trainer.data
 
 ```
