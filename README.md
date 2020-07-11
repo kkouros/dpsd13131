@@ -9,9 +9,7 @@
 
 
 > Step 1
-
 You install the packages
-
 ```bash pip install -r Requirements.txt```
 
 > Step 2
