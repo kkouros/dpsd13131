@@ -4,6 +4,7 @@
 - Torch 1.4.0
 - Torchvision 0.5.0
 - Git
+- CUDA (optional)
 
 
 **Step 1**
@@ -11,7 +12,7 @@
 Clone Yolo v3 Repo
 - git clone https://github.com/kkouros/dpsd13131
 
-Download the Weights from 
+Download the Weights 
 - https://pjreddie.com/media/files/yolov3.weights
 
 **Step 2**
@@ -107,4 +108,11 @@ names=\Your_Path\dpsd13131\object-detection\YoloV3-Custom-Object-Detection\train
 backup=training\backup
 eval=coco
 ```
+
+```
 python train.py --epochs 110 --data training/trainer.data --cfg training/yolov3.cfg --batch 4 --accum 1
+```
+ctrl+c (to stop anytime)
+```
+python train.py --epochs 110 --data training/trainer.data --cfg training/yolov3.cfg --batch 4 --accum 1 --resume
+```
