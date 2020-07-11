@@ -1,7 +1,7 @@
 classes=4
-train=\Users\MIthikos\Source\Repos\YoloV3-Custom-Object-Detection\training\train.txt
-valid=\Users\MIthikos\Source\Repos\YoloV3-Custom-Object-Detection\training\test.txt
-names=\Users\MIthikos\Source\Repos\YoloV3-Custom-Object-Detection\training\object.names
+train=\Users\Helena\dpsd13131\object-detection\YoloV3-Custom-Object-Detection\training\train.txt
+valid=\Users\Helena\dpsd13131\object-detection\YoloV3-Custom-Object-Detection\training\test.txt
+names=\Users\Helena\dpsd13131\object-detection\YoloV3-Custom-Object-Detection\training\object.names
 backup=training\backup
 eval=coco
 

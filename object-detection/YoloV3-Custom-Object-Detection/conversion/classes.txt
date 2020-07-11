@@ -1,4 +1,4 @@
 Person
-Plant
-Tree
+Mug
+Bottle
 Vehicle
