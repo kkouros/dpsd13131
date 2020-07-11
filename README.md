@@ -8,8 +8,13 @@
 - Torchvision 0.5.0
 
 
-> Step 1
+Step 1
+
 You install the packages
+
 ```bash pip install -r Requirements.txt```
+
+```bash cd object-detection/OIDv4_ToolKit/```
+
 
 > Step 2
