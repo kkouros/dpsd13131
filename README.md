@@ -91,12 +91,18 @@ copy ..\conversion\output labels
  
  **Step 8**
  
- 
+
 You should to generate two files train.txt and test.txt 
 ```
 python train_test.py
 cd ..
 ```
+
+``` python
+# Percentage of images to be used for the test set
+percentage_test = 30;
+```
+
 You should to edit this file 
 dpsd13131\object-detection\YoloV3-Custom-Object-Detection\training\trainer.data
 
