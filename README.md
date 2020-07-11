@@ -118,8 +118,9 @@ eval=coco
 ```
 python train.py --epochs 110 --data training/trainer.data --cfg training/yolov3.cfg --batch 4 --accum 1
 ```
-epochs 110, batch 4 are variables and you can change them. Depends on GPU. 
-ctrl+c (to stop anytime) and use command below to resume the training
+epochs 110, batch 4 are variables and can be changed (depending on GPU). 
+
+Press ctrl+c (to stop anytime) and use the following command to resume training
 ```
 python train.py --epochs 110 --data training/trainer.data --cfg training/yolov3.cfg --batch 4 --accum 1 --resume
 ```
