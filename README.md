@@ -27,3 +27,9 @@ You download 200 labeled photos for of every one of the 4 classes for training u
 ```bash
 python main.py downloader --classes Person Mug Bottle Vehicle --type_csv train --multiclasses 1 --limit 200
 ```
+
+Step 4
+Transform labels to pascal voc xml
+```bash
+python oid_to_pascal_voc_xml.py
+```
