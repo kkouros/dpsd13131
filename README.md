@@ -18,7 +18,7 @@ Download the Weights
 **Step 2**
 
 
-You install the packages
+Install the packages
 
 ```bash
 pip install -r Requirements.txt
@@ -36,7 +36,7 @@ cd object-detection/OIDv4_ToolKit/
 **Step 4**
 
 
-First you have to open the file 
+Open the files
 
 - dpsd13131\object-detection\OIDv4_ToolKit\classes.txt 
 - dpsd13131\object-detection\YoloV3-Custom-Object-Detection\conversion\classes.txt
