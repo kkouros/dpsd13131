@@ -6,7 +6,7 @@ import cv2
 from textwrap import dedent
 from lxml import etree
 
-XML_DIR = 'TO_PASCAL_XML'
+XML_DIR = os.path.dirname(os.path.abspath(__file__)) + os.sep + 'TO_PASCAL_XML'
 
 #os.chdir('Dataset')
 os.chdir(os.path.join("OID", "Dataset"))
@@ -155,7 +155,7 @@ for DIR in DIRS:
 
                         # write xml to file
                         s = etree.tostring(annotation, pretty_print=True)
-                        with open("C:\\Users\\MIthikos\\Source\\Repos\\OIDv4_ToolKit\\" + XML_DIR + os.sep + filename_str + ".xml", 'wb') as f:
+                        with open(XML_DIR + os.sep + filename_str + ".xml", 'wb') as f:
                             f.write(s)
                             f.close()
 
