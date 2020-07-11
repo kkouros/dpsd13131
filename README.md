@@ -12,9 +12,18 @@ Step 1
 
 You install the packages
 
-```bash pip install -r Requirements.txt```
+```bash
+pip install -r Requirements.txt
+```
 
-```bash cd object-detection/OIDv4_ToolKit/```
+Step 2
 
+```bash 
+cd object-detection/OIDv4_ToolKit/
+```
 
-> Step 2
+Step 3
+You download 200 labeled photos for of every one of the 4 classes for training under the same roof
+```bash
+python3 main.py downloader --classes Person Mug Bottle Vehicle --type_csv train --multiclasses 1 --limit 200
+```
