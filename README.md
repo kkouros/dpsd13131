@@ -112,7 +112,7 @@ eval=coco
 ```
 python train.py --epochs 110 --data training/trainer.data --cfg training/yolov3.cfg --batch 4 --accum 1
 ```
-ctrl+c (to stop anytime)
+ctrl+c (to stop anytime) and use command below to resume the training
 ```
 python train.py --epochs 110 --data training/trainer.data --cfg training/yolov3.cfg --batch 4 --accum 1 --resume
 ```
