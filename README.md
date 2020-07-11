@@ -7,5 +7,5 @@
 - Torch 1.4.0
 - Torchvision 0.5.0
 ```bash
-pip install -r requirements
+pip install -r Requirements
 ```
