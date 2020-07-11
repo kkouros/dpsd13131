@@ -54,6 +54,9 @@ Step 5
 You have to change directory
 
 ```bash
-cd ..\YoloV3-Custom-Object-Detection
+cd ..\YoloV3-Custom-Object-Detection\conversion
+copy ..\..\OIDv4_ToolKit\TO_PASCAL_XML\*.* xmls
+python xmltotxt.py -xml xmls -out output
+dir output
 ```
 Step 6 
