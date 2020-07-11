@@ -68,3 +68,27 @@ mkdir labels
 copy ..\..\OIDv4_ToolKit\OID\Dataset\train\Person_Mug_Bottle_Vehicle\*.jp* images
 copy ..\conversion\output labels
 ```
+
+Step 7
+
+
+You should to generate two files train.txt and test.txt 
+```
+python train_test.py
+cd ..
+```
+You should to edit this file 
+dpsd13131\object-detection\YoloV3-Custom-Object-Detection\training\trainer.data
+
+```
+classes=4
+train=\Users\Helena\dpsd13131\object-detection\YoloV3-Custom-Object-Detection\training\train.txt
+valid=\Users\Helena\dpsd13131\object-detection\YoloV3-Custom-Object-Detection\training\test.txt
+names=\Users\Helena\dpsd13131\object-detection\YoloV3-Custom-Object-Detection\training\object.names
+backup=training\backup
+eval=coco
+```
+python train.py --epochs 110 --data training/trainer.data --cfg training/yolov3.cfg --batch 4 --accum 1
+ 
+ 
+ 
