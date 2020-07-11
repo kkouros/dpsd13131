@@ -60,3 +60,11 @@ python xmltotxt.py -xml xmls -out output
 dir output
 ```
 Step 6 
+
+```
+cd ..\training
+mkdir images
+mkdir labels
+copy ..\..\OIDv4_ToolKit\OID\Dataset\train\Person_Mug_Bottle_Vehicle\*.jp* images
+copy ..\conversion\output labels
+```
