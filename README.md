@@ -43,3 +43,15 @@ You have to change directory
 ```bash
 cd ..\YoloV3-Custom-Object-Detection
 ```
+Step 6 
+
+You set the classes that you want to change
+
+dpsd13131\object-detection\YoloV3-Custom-Object-Detection\conversion\classes.txt
+
+```
+Person
+Mug
+Bottle
+Vehicle
+```
