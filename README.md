@@ -24,7 +24,11 @@ cd object-detection/OIDv4_ToolKit/
 
 Step 3 
 
-First you have to open the file dpsd13131\object-detection\OIDv4_ToolKit\classes.txt 
+First you have to open the file 
+
+- dpsd13131\object-detection\OIDv4_ToolKit\classes.txt 
+- dpsd13131\object-detection\YoloV3-Custom-Object-Detection\conversion\classes.txt
+- dpsd13131\object-detection\YoloV3-Custom-Object-Detection\training\object.names
 
 ```
 Person
@@ -53,14 +57,3 @@ You have to change directory
 cd ..\YoloV3-Custom-Object-Detection
 ```
 Step 6 
-
-You set the classes that you want to change
-
-dpsd13131\object-detection\YoloV3-Custom-Object-Detection\conversion\classes.txt
-
-```
-Person
-Mug
-Bottle
-Vehicle
-```
