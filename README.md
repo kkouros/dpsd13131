@@ -82,9 +82,9 @@ dpsd13131\object-detection\YoloV3-Custom-Object-Detection\training\trainer.data
 
 ```
 classes=4
-train=\Users\Helena\dpsd13131\object-detection\YoloV3-Custom-Object-Detection\training\train.txt
-valid=\Users\Helena\dpsd13131\object-detection\YoloV3-Custom-Object-Detection\training\test.txt
-names=\Users\Helena\dpsd13131\object-detection\YoloV3-Custom-Object-Detection\training\object.names
+train=\Your_Path\dpsd13131\object-detection\YoloV3-Custom-Object-Detection\training\train.txt
+valid=\Your_Path\dpsd13131\object-detection\YoloV3-Custom-Object-Detection\training\test.txt
+names=\Your_Path\dpsd13131\object-detection\YoloV3-Custom-Object-Detection\training\object.names
 backup=training\backup
 eval=coco
 ```
