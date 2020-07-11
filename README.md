@@ -22,8 +22,8 @@ Step 2
 cd object-detection/OIDv4_ToolKit/
 ```
 
-Step 3
-You download 200 labeled photos for of every one of the 4 classes for training under the same roof
+Step 3 
+First you have to open the classes.txt and you should define your classes after that you run the command and you download 200 labeled photos for of every one of the 4 classes for training under the same roof
 ```bash
 python main.py downloader --classes Person Mug Bottle Vehicle --type_csv train --multiclasses 1 --limit 200
 ```
