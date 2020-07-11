@@ -8,7 +8,7 @@
 - Torchvision 0.5.0
 
 
-Step 1
+**Step 1**
 
 You install the packages
 
@@ -16,13 +16,13 @@ You install the packages
 pip install -r Requirements.txt
 ```
 
-Step 2
+**Step 2**
 
 ```bash 
 cd object-detection/OIDv4_ToolKit/
 ```
 
-Step 3 
+**Step 3**
 
 First you have to open the file 
 
@@ -42,14 +42,14 @@ and you should define your classes after that you run the command and you downlo
 python main.py downloader --classes Person Mug Bottle Vehicle --type_csv train --multiclasses 1 --limit 200
 ```
 
-Step 4
+**Step 4**
 
 Transform labels to pascal voc xml
 ```bash
 python oid_to_pascal_voc_xml.py
 ```
 
-Step 5
+**Step 5**
 
 You have to change directory
 
@@ -59,7 +59,7 @@ copy ..\..\OIDv4_ToolKit\TO_PASCAL_XML\*.* xmls
 python xmltotxt.py -xml xmls -out output
 dir output
 ```
-Step 6 
+**Step 6**
 
 ```
 cd ..\training
@@ -69,7 +69,7 @@ copy ..\..\OIDv4_ToolKit\OID\Dataset\train\Person_Mug_Bottle_Vehicle\*.jp* image
 copy ..\conversion\output labels
 ```
 
-Step 7
+**Step 7**
 
 
 You should to generate two files train.txt and test.txt 
