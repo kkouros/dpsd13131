@@ -92,7 +92,7 @@ copy ..\conversion\output labels
  **Step 8**
  
 
-You should to generate two files train.txt and test.txt 
+You should generate two files train.txt and test.txt 
 ```
 python train_test.py
 cd ..
@@ -103,7 +103,7 @@ cd ..
 percentage_test = 30;
 ```
 
-You should to edit this file 
+You should edit this file 
 dpsd13131\object-detection\YoloV3-Custom-Object-Detection\training\trainer.data
 
 ```
@@ -118,7 +118,7 @@ eval=coco
 ```
 python train.py --epochs 110 --data training/trainer.data --cfg training/yolov3.cfg --batch 4 --accum 1
 ```
-epochs 110, batch 4 are variables and you can change them. Depends from GPU. 
+epochs 110, batch 4 are variables and you can change them. Depends on GPU. 
 ctrl+c (to stop anytime) and use command below to resume the training
 ```
 python train.py --epochs 110 --data training/trainer.data --cfg training/yolov3.cfg --batch 4 --accum 1 --resume
