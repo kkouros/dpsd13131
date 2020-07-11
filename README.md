@@ -25,5 +25,5 @@ cd object-detection/OIDv4_ToolKit/
 Step 3
 You download 200 labeled photos for of every one of the 4 classes for training under the same roof
 ```bash
-python3 main.py downloader --classes Person Mug Bottle Vehicle --type_csv train --multiclasses 1 --limit 200
+python main.py downloader --classes Person Mug Bottle Vehicle --type_csv train --multiclasses 1 --limit 200
 ```
