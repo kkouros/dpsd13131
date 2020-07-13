@@ -1,5 +1,6 @@
 # dpsd13131
 ## Requirements
+- VC++ 2015.3 v14.00 (v140) toolset for desktop
 - Python 3.6 
 - Torch 1.4.0
 - Torchvision 0.5.0
