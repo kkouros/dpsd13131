@@ -61,6 +61,7 @@ python main.py downloader --classes Person Mug Bottle Vehicle --type_csv train -
 
 Transform labels to pascal voc xml
 ```bash
+mkdir TO_PASCAL_XML
 python oid_to_pascal_voc_xml.py
 ```
 
@@ -68,10 +69,11 @@ python oid_to_pascal_voc_xml.py
 **Step 6**
 
 
-Change directory
+Change directory and create directories
 
 ```bash
 cd ..\YoloV3-Custom-Object-Detection\conversion
+mkdir xmls
 copy ..\..\OIDv4_ToolKit\TO_PASCAL_XML\*.* xmls
 python xmltotxt.py -xml xmls -out output
 dir output
