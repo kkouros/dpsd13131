@@ -3,7 +3,7 @@ numpy
 opencv-python
 torch >= 1.1.0
 matplotlib
-pycocotools
+git+https://github.com/philferriere/cocoapi.git#egg=pycocotools&subdirectory=PythonAPI
 tqdm
 Pillow
 declxml==0.9.1
