@@ -133,7 +133,7 @@ python train.py --epochs 110 --data training/trainer.data --cfg training/yolov3.
 
  **Step 9**
  
- Convert the weights
+ Convert the weights and Detect
  
  ```
  python -c "from models import *; convert('training/yolov3.cfg', 'weights/best.pt')"
