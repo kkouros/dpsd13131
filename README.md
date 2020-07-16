@@ -82,8 +82,9 @@ dir output
 
 **Step 7**
 
-Create directories images, labels and copy the photos
+Create directories images, labels, runs (training logs) and copy the photos
 ```
+mkdir ..\runs
 cd ..\training
 mkdir images
 mkdir labels
@@ -132,7 +133,10 @@ python train.py --epochs 110 --data training/trainer.data --cfg training/yolov3.
 
  **Step 9**
  
+ Convert the weights
  
- Detect
- 
+ ```
+ python -c "from models import *; convert('training/yolov3.cfg', 'weights/best.pt')"
+ python detect.py --source 0 --weights converted.weights --cfg training/yolov3.cfg --names training/object.names --img-size 416
+ ```
  
